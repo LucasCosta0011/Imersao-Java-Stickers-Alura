@@ -1,6 +1,6 @@
 
 <h1 align="center">Imersão Java da Alura</h1>
-<img width="20" height="20" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/desafio-terminal.png">
+<img width="100" height="100" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/desafio-terminal.png">
 <h1 align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
 </h1>
