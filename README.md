@@ -6,10 +6,10 @@
 </h1>
 
 ##
-<div align="center">
+
 ### Aula 1 - Gerando figurinhas para WhatsApp.
 ### Aula 2 - Ligando as pontas e refatoração.
 ### Aula 3 - Criando a própria API com Spring.
 ### Aula 4 - Publicando API no Cloud.
-</div>
+
 ##
