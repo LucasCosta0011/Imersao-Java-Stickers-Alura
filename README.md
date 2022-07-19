@@ -6,10 +6,9 @@
 </h1>
 
 ##
-
-### Aula 1 - Gerando figurinhas para WhatsApp. ✔️
-### Aula 2 - Ligando as pontas e refatoração.
-### Aula 3 - Criando a própria API com Spring.
-### Aula 4 - Publicando API no Cloud.
-
+### Aula 1 - Consumindo uma API de Filmes. ✔️
+### Aula 2 - Gerando figurinhas para WhatsApp. 
+### Aula 3 - Ligando as pontas e refatoração.
+### Aula 4 - Criando a própria API com Spring.
+### Aula 5 - Publicando API no Cloud.
 ##
