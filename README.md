@@ -1,6 +1,11 @@
 
 <h1 style="display: inline-block;" align="center">Imersão Java da Alura</h1>
+### Desafio - Aula - 1
 <img align="center" width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/desafio-terminal.png">
+### Desafio Aula - 2
+<img style="display: inline-block;" align="center" width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/The%20Dark%20Knight.png">
+<img style="display: inline-block;" align="center" width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/12%20Angry%20Men.png">
+
 <h1 align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
 </h1>
