@@ -12,7 +12,7 @@
 
 <h3 align="center">Desafio Aula - 2</h3>
 <p align="center">
-<img style="display: inline-block;" align="center" width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/The%20Dark%20Knight.png">
+<img style="display: inline-block;" align="center" width="300" height="300" margin-right="20" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/The%20Dark%20Knight.png">
 <img style="display: inline-block;" align="center" width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/12%20Angry%20Men.png">
 </p>
 
