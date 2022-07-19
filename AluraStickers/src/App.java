@@ -37,12 +37,44 @@ public class App {
         for (Map<String,String> filme : listaDeFilmes) {
             System.out.println("\u001B[44m \u001b[1m" + filme.get("title") + "\u001B[0m");
             System.out.println("\u001B[34m \u001b[1m" + filme.get("image") + "\u001B[0m");
-            System.out.println(filme.get("imDbRating") + "");
-            TerminalColorido txtColorido = new TerminalColorido();
+            
+            //TerminalColorido txtColorido = new TerminalColorido();
 
-            //System.out.println(txtColorido.colorirTexto("teste"));cls
+            switch (filme.get("imDbRating")) {
+                case "1.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * ");
+                    break;
+                case "2.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * ");
+                    break;
+                case "3.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * * ");
+                    break;
+                case "4.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * * ");
+                    break;
+                case "5.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * * * ");
+                    break;
+                case "6.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * * * ");
+                    break;
+                case "7.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * * * * ");
+                    break;
+                    case "8.0":
+                System.out.println("\u001B[33m\u001b[1m" + " * * * * ");
+                    break;
+                    case "9.0":
+                System.out.println("\u001B[33m \u001b[1m" + " * * * * * ");
+                    break;
+                default:
+                    break;
+            }
+            //System.out.println(filme.get("imDbRating") + "[char]::ConvertFromUtf32(0x2B50)");
 
-            //System.out.println("\u001B[34m Alura \u001b[1m + Node");
+            
+
         }
     }
 }
