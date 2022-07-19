@@ -1,4 +1,6 @@
+import java.io.InputStream;
 import java.net.URI;
+import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -33,44 +35,46 @@ public class App {
 
         //System.out.println(listaDeFilmes.size());
         //System.out.println(listaDeFilmes.get(0));
+        var geradorFigurinha = new GeradorFigurinhas();
 
         for (Map<String,String> filme : listaDeFilmes) {
-            System.out.println("\u001B[44m \u001b[1m" + filme.get("title") + "\u001B[0m");
-            System.out.println("\u001B[34m \u001b[1m" + filme.get("image") + "\u001B[0m");
+            //System.out.println("\u001B[44m \u001b[1m" + filme.get("title") + "\u001B[0m");
+
+            String titulo = filme.get("title");
+            String urlImagem = filme.get("image");
             
             //TerminalColorido txtColorido = new TerminalColorido();
 
+            InputStream inputStream = new URL(urlImagem).openStream();
+            String nomeArquivo = titulo + ".png";
+            
+            String estado = "";
+
             switch (filme.get("imDbRating")) {
-                case "1.0":
-                System.out.println("\u001B[33m \u001b[1m" + " * ");
-                    break;
-                case "2.0":
-                System.out.println("\u001B[33m \u001b[1m" + " * ");
-                    break;
-                case "3.0":
-                System.out.println("\u001B[33m \u001b[1m" + " * * ");
-                    break;
-                case "4.0":
-                System.out.println("\u001B[33m \u001b[1m" + " * * ");
-                    break;
-                case "5.0":
+                case "8.7":
                 System.out.println("\u001B[33m \u001b[1m" + " * * * ");
+                estado = "reprovado";
                     break;
-                case "6.0":
-                System.out.println("\u001B[33m \u001b[1m" + " * * * ");
-                    break;
-                case "7.0":
+                case "8.8":
                 System.out.println("\u001B[33m \u001b[1m" + " * * * * ");
+                estado = "reprovado";
                     break;
-                case "8.0":
+                case "8.9":
                 System.out.println("\u001B[33m\u001b[1m" + " * * * * ");
+                estado = "reprovado";
                     break;
                 case "9.0":
                 System.out.println("\u001B[33m \u001b[1m" + " * * * * * ");
+                estado = "aprovado";
                     break;
                 default:
                     break;
             }
+            geradorFigurinha.criarFigurinhas(inputStream, nomeArquivo, estado);
+
+            System.out.println(titulo + estado);
+            System.out.println();
+            
             //System.out.println(filme.get("imDbRating") + "[char]::ConvertFromUtf32(0x2B50)");
         }
     }
