@@ -62,19 +62,16 @@ public class App {
                 case "7.0":
                 System.out.println("\u001B[33m \u001b[1m" + " * * * * ");
                     break;
-                    case "8.0":
+                case "8.0":
                 System.out.println("\u001B[33m\u001b[1m" + " * * * * ");
                     break;
-                    case "9.0":
+                case "9.0":
                 System.out.println("\u001B[33m \u001b[1m" + " * * * * * ");
                     break;
                 default:
                     break;
             }
             //System.out.println(filme.get("imDbRating") + "[char]::ConvertFromUtf32(0x2B50)");
-
-            
-
         }
     }
 }
