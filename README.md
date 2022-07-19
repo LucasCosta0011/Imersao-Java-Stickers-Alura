@@ -17,10 +17,10 @@
 </p>
 
 ##
-<h3 align="center">Tópicos</h3>
-<h6 align="center">Aula 1 - Consumindo API de Filmes. ✔️</h6>
-<h6 align="center">Aula 2 - Gerando figurinhas para WhatsApp. ✔️</h6>
-<h6 align="center">Aula 3 - Ligando as pontas e refatoração.</h6>
-<h6 align="center">Aula 4 - Criando a própria API com Spring.</h6>
-<h6 align="center">Aula 5 - Publicando API no Cloud.</h6>
+<h4 align="center">Tópicos</h3>
+<h4 align="center">Aula 1 - Consumindo API de Filmes. ✔️</h4>
+<h4 align="center">Aula 2 - Gerando figurinhas para WhatsApp. ✔️</h4>
+<h4 align="center">Aula 3 - Ligando as pontas e refatoração.</h4>
+<h4 align="center">Aula 4 - Criando a própria API com Spring.</h4>
+<h4 align="center">Aula 5 - Publicando API no Cloud.</h4>
 
