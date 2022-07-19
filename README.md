@@ -16,10 +16,11 @@
 <img align="center" width="300" height="300" margin="10" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/12%20Angry%20Men.png">
 </p>
 
+<h3 align="center">Tópicos</h3>
 ##
 <p align="center">Aula 1 - Consumindo API de Filmes. ✔️</p>
 <p align="center">Aula 2 - Gerando figurinhas para WhatsApp. ✔️</p>
 <p align="center">Aula 3 - Ligando as pontas e refatoração.</p>
 <p align="center">Aula 4 - Criando a própria API com Spring.</p>
 <p align="center">Aula 5 - Publicando API no Cloud.</p>
-##
+
