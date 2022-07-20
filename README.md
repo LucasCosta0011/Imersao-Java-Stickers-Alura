@@ -10,7 +10,8 @@
 ### Desafio - Aula 2
 ##
 <p align="center">
-
+<img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/Pulp%20Fiction.png">
+<img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/The%20Dark%20Knight.png">
 </p>
 
 <p align="center">
