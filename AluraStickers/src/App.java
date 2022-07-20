@@ -72,7 +72,7 @@ public class App {
             }
             geradorFigurinha.criarFigurinhas(inputStream, nomeArquivo, estado);
 
-            System.out.println(titulo + estado);
+            System.out.println(titulo + filme.get("imDbRating"));
             System.out.println();
             
             //System.out.println(filme.get("imDbRating") + "[char]::ConvertFromUtf32(0x2B50)");
