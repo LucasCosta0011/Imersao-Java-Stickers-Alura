@@ -44,9 +44,9 @@ public class GeradorFigurinhas {
       // lendo de diretorio
       //BufferedImage imagemOriginal = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/AluraStickers/entrada/filme.jpg"));
 
-      BufferedImage aprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/AluraStickers/img/aprovado.png"));
+      BufferedImage aprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-antigo/AluraStickers/img/aprovado.png"));
 
-      BufferedImage reprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/AluraStickers/img/reprovado.png"));
+      BufferedImage reprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-antigo/AluraStickers/img/reprovado.png"));
 
       // cria nova imagem em memória com transparência e com tamnho novo
       int largura = imagemOriginal.getWidth();
@@ -102,7 +102,7 @@ public class GeradorFigurinhas {
       // escrever a nova imagem em um arquivo
       //ImageIO.write(novaImagem, "png", new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/AluraStickers/saida/figurinha.png"));
 
-      ImageIO.write(novaImagem, "png", new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/AluraStickers/saida/" + nomeArquivo));
+      ImageIO.write(novaImagem, "png", new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-antigo/AluraStickers/saida/" + nomeArquivo));
     } 
     
 }

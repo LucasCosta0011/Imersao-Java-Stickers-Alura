@@ -49,8 +49,17 @@ public class App {
             String nomeArquivo = titulo + ".png";
             
             String estado = "";
+            Double rank = Double.valueOf(filme.get("imDbRating"));
 
-            switch (filme.get("imDbRating")) {
+            if(rank == 9){
+                System.out.println("\u001B[33m \u001b[1m" + " * * * * * ");
+                estado = "aprovado";
+            }else{
+                System.out.println("\u001B[33m \u001b[1m" + " * * * ");
+                estado = "reprovado";
+            }
+            /*
+            switch (rank) {
                 case "8.7":
                 System.out.println("\u001B[33m \u001b[1m" + " * * * ");
                 estado = "reprovado";
@@ -70,6 +79,7 @@ public class App {
                 default:
                     break;
             }
+            */
             geradorFigurinha.criarFigurinhas(inputStream, nomeArquivo, estado);
 
             System.out.println(titulo + filme.get("imDbRating"));

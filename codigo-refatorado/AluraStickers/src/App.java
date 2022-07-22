@@ -10,8 +10,11 @@ public class App {
         // titulo, poster, classificação
         // exibir e manipular os dados 
 
-        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-16&end_date=2022-06-18";
-        ExtratorConteudo extrator = new ExtratorConteudoNasa();
+        //String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-16&end_date=2022-06-18";
+        //ExtratorConteudo extrator = new ExtratorConteudoNasa();
+
+        String url = "http://localhost:8080/Linguagens";
+        var extrator = new ExtratorConteudoIMDB();
 
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
