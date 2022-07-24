@@ -21,6 +21,7 @@
 <img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/codigo-refatorado/AluraStickers/saida/Java.png">
 <img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/codigo-refatorado/AluraStickers/saida/C%23.png">
 </p>
+
 ##
 
 <p align="center">
