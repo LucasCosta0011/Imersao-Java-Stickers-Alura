@@ -69,15 +69,16 @@ public class App {
         }
         */
         
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 4; i++){
 
             Conteudo conteudo = conteudos.get(i);
 
             String estado = "";
             int rank = Integer.parseInt(conteudo.getRanking());
-
-            if(rank == 9){
+            System.out.println(rank);
+            if(rank == 1){
                 System.out.println("\u001B[33m \u001b[1m" + " * * * * * ");
+                System.out.println("Foi aprovado!!!!");
                 estado = "aprovado";
             }else{
                 System.out.println("\u001B[33m \u001b[1m" + " * * * ");

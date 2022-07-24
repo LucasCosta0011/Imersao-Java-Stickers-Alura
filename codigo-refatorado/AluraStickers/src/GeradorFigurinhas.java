@@ -67,7 +67,7 @@ public class GeradorFigurinhas {
       System.out.println(estado);
       if(estado.equals("aprovado")){
         str = "com " + title;
-        copiaImagem.drawImage(aprovado,0 - 500, altura - 100, null);
+        copiaImagem.drawImage(aprovado, 0 , altura + 100, null);
       }else if(estado.equals("reprovado")){
         str = "com " + title;
         copiaImagem.drawImage(reprovado, 0, altura + 100, null);

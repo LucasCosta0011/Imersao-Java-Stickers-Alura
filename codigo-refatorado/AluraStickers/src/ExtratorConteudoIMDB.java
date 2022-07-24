@@ -11,11 +11,11 @@ public class ExtratorConteudoIMDB implements ExtratorConteudo{
     
     // popular a lista
     for (Map<String, String> atributos : listaAtributos) {
-      System.out.println(atributos.get("title"));
+      
       String titulo = atributos.get("title");
       String urlImagem = atributos.get("image")
       .replaceAll("(@+)(.*).jpg$", "$l.jpg");
-      System.out.println(atributos.get("ranking"));
+      
       String ranking = atributos.get("ranking");
       
       
