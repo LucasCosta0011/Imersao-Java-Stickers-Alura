@@ -13,7 +13,7 @@ public class App {
         //String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-16&end_date=2022-06-18";
         //ExtratorConteudo extrator = new ExtratorConteudoNasa();
 
-        String url = "http://localhost:8080/Linguagens";
+        String url = "https://alura-linguagem-api.herokuapp.com/Linguagens";
         var extrator = new ExtratorConteudoIMDB();
 
         var http = new ClienteHttp();
@@ -68,16 +68,29 @@ public class App {
             //System.out.println(filme.get("imDbRating") + "[char]::ConvertFromUtf32(0x2B50)");
         }
         */
-
+        
         for(int i = 0; i < 3; i++){
 
             Conteudo conteudo = conteudos.get(i);
+
+            String estado = "";
+            int rank = Integer.parseInt(conteudo.getRanking());
+
+            if(rank == 9){
+                System.out.println("\u001B[33m \u001b[1m" + " * * * * * ");
+                estado = "aprovado";
+            }else{
+                System.out.println("\u001B[33m \u001b[1m" + " * * * ");
+                estado = "reprovado";
+            }
+
+
         
             InputStream inputStream = new URL(conteudo.getUrlImagem()).openStream();
 
             String nomeArquivo = conteudo.getTitulo() + ".png";
 
-            geradorFigurinha.criarFigurinhas(inputStream, nomeArquivo);
+            geradorFigurinha.criarFigurinhas(inputStream, nomeArquivo, estado, conteudo.getTitulo());
 
             System.out.println(conteudo.getTitulo());
             System.out.println();

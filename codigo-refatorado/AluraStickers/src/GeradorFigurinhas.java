@@ -23,7 +23,7 @@ public class GeradorFigurinhas {
     
     
     // dessa forma, A classe que chamar esse método vai ter que lidar com a exception genérica
-    public void criarFigurinhas(InputStream inputStream, String nomeArquivo) throws Exception{
+    public void criarFigurinhas(InputStream inputStream, String nomeArquivo, String estado, String title) throws Exception{
 
       // leitura  da imagem
       // InputStream é uma classe abstrata
@@ -44,14 +44,15 @@ public class GeradorFigurinhas {
       // lendo de diretorio
       //BufferedImage imagemOriginal = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/AluraStickers/entrada/filme.jpg"));
 
-      BufferedImage aprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-refatorado/AluraStickers/img/aprovado.png"));
+      BufferedImage aprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-refatorado/AluraStickers/img/aprovado-200x200.png"));
 
-      BufferedImage reprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-refatorado/AluraStickers/img/reprovado.png"));
+      BufferedImage reprovado = ImageIO.read(new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-refatorado/AluraStickers/img/reprovado-200x200.png"));
 
       // cria nova imagem em memória com transparência e com tamnho novo
       int largura = imagemOriginal.getWidth();
       int altura = imagemOriginal.getHeight();
-      int novaAltura = altura + 500;
+      //int novaAltura = altura + 500;
+      int novaAltura = altura + 300;
 
 
       BufferedImage novaImagem = new BufferedImage(largura, novaAltura, BufferedImage.TRANSLUCENT);
@@ -61,42 +62,45 @@ public class GeradorFigurinhas {
 
 
       copiaImagem.drawImage(imagemOriginal, 0, 0, null);
-      String s = "";
-      /*
+      String s = "Trabalhando";
+      String str = "";
       System.out.println(estado);
       if(estado.equals("aprovado")){
-        s = "Aprovado";
-        copiaImagem.drawImage(aprovado, (largura / 2) - 500, altura - 200, null);
+        str = "com " + title;
+        copiaImagem.drawImage(aprovado,0 - 500, altura - 100, null);
       }else if(estado.equals("reprovado")){
-        s = "Reprovado";
-        copiaImagem.drawImage(reprovado, (largura / 2) - 500, altura, null);
+        str = "com " + title;
+        copiaImagem.drawImage(reprovado, 0, altura + 100, null);
       }
-       */
+       
 
       
       // Config font
-      var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 150);
+      //var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 150);
+      var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 30);
       copiaImagem.setFont(fonte);
       
 
       copiaImagem.setColor(Color.ORANGE);
-      copiaImagem.rotate(Math.toRadians(-50), (largura / 2) + 50, novaAltura - 150);
+      copiaImagem.rotate(Math.toRadians(-15), (largura / 2) + 50, novaAltura - 150);
 
       // escrever uma frase na nova imagem
-      copiaImagem.drawString(s, (largura / 2), novaAltura - 100);
+      copiaImagem.drawString(s, (largura / 2) - 20, novaAltura - 250);
+      copiaImagem.drawString(str, (largura / 2) - 20, novaAltura - 215);
 
 
       if(!s.equals("")){
         // cria uma borda
         TextLayout tl = new TextLayout(s, fonte, copiaImagem.getFontRenderContext());
         Shape shape = tl.getOutline(null);
-        copiaImagem.translate((largura / 2), novaAltura - 100);
+        copiaImagem.translate((largura / 2) - 20, novaAltura - 250);
+        copiaImagem.translate((largura / 2) - 20, novaAltura - 215);
         
         copiaImagem.setColor(Color.BLACK);
         copiaImagem.draw(shape);
 
         // Aumenta a borda
-        BasicStroke wideStroke = new BasicStroke(5.0f);
+        BasicStroke wideStroke = new BasicStroke(2.0f);
         copiaImagem.setStroke(wideStroke);
         copiaImagem.draw(shape);
       }
