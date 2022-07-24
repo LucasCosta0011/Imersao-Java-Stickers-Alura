@@ -21,12 +21,12 @@
 <img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/codigo-refatorado/AluraStickers/saida/Java.png">
 <img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/codigo-refatorado/AluraStickers/saida/C%23.png">
 </p>
+##
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
 </p>
-##
- 
+
 
 ##
 ### Aula 1 - Consumindo API de Filmes. ✔️
