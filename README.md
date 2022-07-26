@@ -13,11 +13,8 @@
 ### Aula 3 - Ligando as pontas e refatoração. ✔️
 ### Aula 4 - Criando a própria API com Spring. ✔️
 ### Aula 5 - Publicando API no Cloud. ✔️
-##
-
 
 ## Desafio - Aula 1
-##
 
 ### Consumir o endpoint de filmes mais populares da API do IMDB. ✔️
 ### Usar sua criatividade para deixar a saída dos dados mais amigável. ✔️
