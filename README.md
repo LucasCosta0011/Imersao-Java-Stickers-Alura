@@ -16,7 +16,7 @@
 ##
 
 
-### Desafio - Aula 1
+## Desafio - Aula 1
 ##
 
 ### Consumir o endpoint de filmes mais populares da API do IMDB. ✔️
@@ -29,7 +29,7 @@
 <img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/codigo-refatorado/AluraStickers/saida/desafio-terminal.png">
 </p>
 
-### Desafio - Aula 2
+## Desafio - Aula 2
 ##
 
 ### Centralizar o texto na figurinha. ✔️
@@ -46,7 +46,7 @@
 <img width="300" height="300" src="https://github.com/LucasCosta0011/Imersao-Java-Stickers-Alura/blob/main/codigo-refatorado/AluraStickers/saida/The%20Dark%20Knight.png">
 </p>
 
-### Desafio - Aula 3
+## Desafio - Aula 3
 ##
 
 ### Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
@@ -56,7 +56,7 @@
 ### Consumir outras APIs que contém imagens ✔️
 
 
-### Desafio - Aula 4
+## Desafio - Aula 4
 ##
 ### Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.
 ### Devolver a listagem ordenada pelo ranking.
@@ -64,7 +64,7 @@
 ### Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.
 ### Aplicar modificações parciais no recurso através do método PATCH, por exemplo, modificando o número de votos ou de pessoas que utilizam cada linguagem de programação.
 
-### Desafio - Aula 5
+## Desafio - Aula 5
 ##
 
 ### Compartilhe com seus amigos a sua URL do Heroku, para que eles possam consumir a sua API (com o padrão de atributos title e image) e gerar figurinhas do conteúdo que você utilizou (linguagens de programação, filmes, músicas). 
