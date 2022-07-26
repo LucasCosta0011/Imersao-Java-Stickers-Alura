@@ -27,8 +27,6 @@
 </p>
 
 ## Desafio - Aula 2
-##
-
 ### Centralizar o texto na figurinha. ✔️
 ### Fazer um pacote no Whatsapp e/ou Telegram com as suas próprias figurinhas. ✔️
 ### Criar diretório de saída das imagens, se ainda não existir. ✔️
@@ -44,8 +42,6 @@
 </p>
 
 ## Desafio - Aula 3
-##
-
 ### Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
 ### Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP
 ### Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra
@@ -54,7 +50,6 @@
 
 
 ## Desafio - Aula 4
-##
 ### Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.
 ### Devolver a listagem ordenada pelo ranking.
 ### Criar na sua API um modelo de entidade com nomes diferentes de title e image e criar seu próprio extrator de informações personalizado OU, manter com o nome title e image e traduzir para que seja retornado como título e imagem através do uso de DTO (Data Transfer Object).
@@ -62,8 +57,6 @@
 ### Aplicar modificações parciais no recurso através do método PATCH, por exemplo, modificando o número de votos ou de pessoas que utilizam cada linguagem de programação.
 
 ## Desafio - Aula 5
-##
-
 ### Compartilhe com seus amigos a sua URL do Heroku, para que eles possam consumir a sua API (com o padrão de atributos title e image) e gerar figurinhas do conteúdo que você utilizou (linguagens de programação, filmes, músicas). 
 ### Colocar a aplicação no cloud da Oracle.
 ### Implementar algum mecanismo de votação na API, para que outros amigos votem nas linguagens preferidas para que se possa fazer um ranking.
