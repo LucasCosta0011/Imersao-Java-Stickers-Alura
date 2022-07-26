@@ -4,8 +4,8 @@
 ### Desafio - Aula 1
 ##
 
-### Consumir o endpoint de filmes mais populares da API do IMDB.
-### Usar sua criatividade para deixar a saída dos dados mais amigável.
+### Consumir o endpoint de filmes mais populares da API do IMDB. ✔️
+### Usar sua criatividade para deixar a saída dos dados mais amigável. ✔️
 ### Colocar a chave da API do IMDB em algum lugar fora do código.
 ### Criar alguma maneira para você dar uma avaliação ao filme. puxando de algum arquivo de configuração ou pedindo a avaliação para o usuário digitar no terminal.
 
