@@ -108,7 +108,7 @@ public class GeradorFigurinhas {
       // escrever a nova imagem em um arquivo
       //ImageIO.write(novaImagem, "png", new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/AluraStickers/saida/figurinha.png"));
 
-      ImageIO.write(novaImagem, "png", new File("C://Users/sdnxf/Documents/NetBeansProjects/Imersao-Java-Stickers-Alura/Imersao-Java-Stickers-Alura/codigo-refatorado/AluraStickers/saida/" + nomeArquivo));
+      ImageIO.write(novaImagem, "png", new File("saida/" + nomeArquivo));
     } 
     
 }
